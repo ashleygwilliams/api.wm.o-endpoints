@@ -1,4 +1,4 @@
-const BaseModel = require(''../../utils/base_model');
+const BaseModel = require('../../utils/base_model');
 
 const instanceProps = {
   tableName: 'elements',

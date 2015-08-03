@@ -7,7 +7,7 @@ const instanceProps = {
     return this.belongsTo(require('../users/model'));
   },
   pages: function() {
-    reutrn this.hasMany(require('../pages/model'));
+    return this.hasMany(require('../pages/model'));
   }
 };
 

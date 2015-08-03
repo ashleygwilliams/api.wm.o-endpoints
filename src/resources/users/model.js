@@ -6,7 +6,7 @@ const instanceProps = {
   projects: function() {
     return this.hasMnay(require('../projects/model'));
   }
-}
+};
 
 const classProps = {
   typeName: 'users',
@@ -18,6 +18,6 @@ const classProps = {
   relations: [
     'projects'
   ]
-}
+};
 
-modules.exports = BaseModel.extend(instanceProps, classProps);
+module.exports = BaseModel.extend(instanceProps, classProps);
