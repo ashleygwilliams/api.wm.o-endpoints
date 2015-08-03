@@ -28,3 +28,19 @@ $ createdb wm
 $ knex migrate:latest
 $ npm start
 ```
+
+## Routes
+You can also view these at the root route: `/v1`.
+
+```
+{
+  "elements": "/v1/elements?include={page}&filter[{page_id}]",
+  "pages": "/v1/pages?include={project,elements}&filter[{project_id}]",
+  "projects": "/v1/projects?include={user,pages}&filter[{user_id,featured,title}]",
+  "users": "/v1/users?include={projects}&filter[{language}]"
+}
+```
+
+For example, you can retrieve all pages with their elements, for a project with an `id` of `1` using the following URL:
+
+`http://localhost:8080/v1/pages?include=elements&filter[project_id]=1`
