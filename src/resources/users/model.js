@@ -4,7 +4,7 @@ const instanceProps = {
   tableName: 'users',
   hasTimestamps: true,
   projects: function() {
-    return this.hasMnay(require('../projects/model'));
+    return this.hasMany(require('../projects/model'));
   }
 };
 
