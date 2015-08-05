@@ -88,49 +88,49 @@ module.exports = {
       featured: true
     },
     {
-      user_id: 6,
+      user_id: 4,
       version: 'test',
       title: 'test_project_13',
       thumbnail: empty_json,
       featured: true
     },
     {
-      user_id: 6,
+      user_id: 4,
       version: 'test',
       title: 'test_project_14',
       thumbnail: empty_json,
       featured: true
     },
     {
-      user_id: 6,
+      user_id: 4,
       version: 'test',
       title: 'test_project_15',
       thumbnail: empty_json,
       featured: true
     },
     {
-      user_id: 7,
+      user_id: 6,
       version: 'test',
       title: 'test_project_16',
       thumbnail: empty_json,
       featured: true
     },
     {
-      user_id: 7,
+      user_id: 6,
       version: 'test',
       title: 'test_project_17',
       thumbnail: empty_json,
       featured: true
     },
     {
-      user_id: 7,
+      user_id: 6,
       version: 'test',
       title: 'test_project_18',
       thumbnail: empty_json,
       featured: true
     },
     {
-      user_id: 7,
+      user_id: 3,
       version: 'test',
       title: 'test_project_19',
       thumbnail: empty_json,
@@ -138,28 +138,28 @@ module.exports = {
     },
     {
       user_id: 2,
-      remixed_From: 1,
+      remixed_from: 1,
       version: 'test',
       title: 'test_remix_1',
       thumbnail: empty_json
     },
     {
       user_id: 3,
-      remixed_From: 1,
+      remixed_from: 1,
       version: 'test',
       title: 'test_remix_2',
       thumbnail: empty_json
     },
     {
       user_id: 2,
-      remixed_From: 1,
+      remixed_from: 1,
       version: 'test',
       title: 'test_remix_3',
       thumbnail: empty_json
     },
     {
       user_id: 3,
-      remixed_From: 1,
+      remixed_from: 1,
       version: 'test',
       title: 'test_remix_4',
       thumbnail: empty_json
