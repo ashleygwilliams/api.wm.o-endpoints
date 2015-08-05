@@ -4,7 +4,7 @@ module.exports = {
   development: {
     client: 'pg',
     debug: true,
-    connection: process.env.POSTGRE_CONNECTION_STRING,
+    connection: process.env.POSTGRES,
     directory: './migrations',
     migrations: {
       tableName: 'migrations'

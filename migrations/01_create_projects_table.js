@@ -5,7 +5,7 @@ exports.up = function(knex) {
     t.bigInteger('remixed_from').defaultTo(null);
     t.string('version').notNullable();
     t.string('title').notNullable();
-    t.boolean('featured').notNullable().defaultTo(false);
+    t.boolean('featured').defaultTo(false);
     t.json('thumbnail', true).notNullable().defaultTo('{}');
 
     t.timestamp('deleted_at').defaultTo(null);

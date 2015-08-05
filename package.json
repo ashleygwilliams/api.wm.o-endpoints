@@ -25,6 +25,8 @@
   },
   "scripts": {
     "start": "node index.js",
-    "env": "cp env.dist .env"
+    "env": "cp env.dist .env",
+    "db:reset": "dropdb wm && createdb wm && knex migrate:latest",
+    "db:seed": "knex seed:run"
   }
 }
