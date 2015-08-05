@@ -26,8 +26,15 @@ $ npm install
 $ npm run env # WINDOWS USERS: use COPY env.dist .env
 $ createdb wm
 $ knex migrate:latest
+$ knex seed:run
 $ npm start
 ```
+
+## Scripts
+This application uses npm scripts to run some tasks.
+
+- `npm run db:reset`: drops the database, recreates the database, runs migrations
+- `npm run db:seed`: alias for `knex seed:run`
 
 ## Routes
 You can also view these at the root route: `/v1`.
